@@ -2030,10 +2030,54 @@ body::-webkit-scrollbar-thumb {
     font-weight: 500
 }
 
+.elisc_tm_social {
+    justify-content: space-between;
+    float: center;
+    margin-top: 50px;        
+}
+.elisc_tm_social h3 {
+    padding-top: 100px;
+    width: 100%;
+    font-size: 40px;     
+    display: flex; /* Menggunakan flexbox untuk mengatur konten di dalam li */
+    justify-content: center;   
+}
+
+.elisc_tm_social ul li {
+    width: 33.333%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 30px;      
+    display: flex; /* Menggunakan flexbox untuk mengatur konten di dalam li */
+    justify-content: center;   
+}
+
+.social_image{
+    width: 200px;    
+}
+
+@media (max-width: 1600) {
+    .social_image {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1040) {
+    .social_image {
+        width: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social_image {
+        width: 100px;
+    }
+}
+
 .elisc_tm_map {
     width: 100%;
     float: left;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 120px
 }
 
